@@ -1,7 +1,6 @@
-output: build/dist/
 variables:
   APP_LICENSE: GPLv3
-output: dist/
+output: dist/dist/
 releases:
   - name: linux-rpm
     jobs:
