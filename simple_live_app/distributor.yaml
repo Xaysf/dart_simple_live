@@ -1,1 +1,9 @@
-license: MIT
+name: simple_live_app
+version: 1.9.1
+platforms:
+  linux:
+    targets:
+      - rpm
+    license: MIT
+    maintainer: yo＠
+    description: "Simple Live 是一款开源聚合直播应用，支持多平台资源整合与弹幕互动。"
