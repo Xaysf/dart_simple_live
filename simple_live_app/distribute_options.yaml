@@ -1,16 +1,1 @@
-variables:
-  APP_LICENSE: GPLv3
 output: dist/dist/
-releases:
-  - name: linux-rpm
-    jobs:
-      - name: build-rpm
-        package:
-          platform: linux
-          target: rpm
-      
-          build_args:
-        
-            dart-define:
-              LICENSE: ${APP_LICENSE}
-    
